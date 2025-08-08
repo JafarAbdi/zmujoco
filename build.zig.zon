@@ -1,0 +1,48 @@
+.{
+    .name = .mujoco,
+    .version = "0.0.0",
+    .fingerprint = 0xb0570d4fd4b5f13a,
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .mujoco = .{
+            .url = "https://github.com/google-deepmind/mujoco/archive/refs/tags/3.3.4.zip",
+            .hash = "N-V-__8AAHAjtAWZnDB_a7g21W_L9ghe6fP0b5IwjIsmsI0j",
+        },
+        .tinyxml2 = .{
+            .url = "https://github.com/leethomason/tinyxml2/archive/e6caeae85799003f4ca74ff26ee16a789bc2af48.zip",
+            .hash = "N-V-__8AALTGLgC0aSBOzDeI_l4PP-dm4qyhXeGaBn3LDKM7",
+        },
+        .tinyobjloader = .{
+            .url = "https://github.com/tinyobjloader/tinyobjloader/archive/1421a10d6ed9742f5b2c1766d22faa6cfbc56248.zip",
+            .hash = "N-V-__8AANoTIgB-uTKjKCpPDXkUOw4zH9pPPlc64fUsqWob",
+        },
+        .ccd = .{
+            .url = "https://github.com/danfis/libccd/archive/7931e764a19ef6b21b443376c699bbc9c6d4fba8.zip",
+            .hash = "N-V-__8AADIlBQC4ogMsRGuDQaxPkdleYYgWtJQrqaf7hYt5",
+        },
+        .zglfw = .{
+            .url = "git+https://github.com/zig-gamedev/zglfw#feeeff9386dd44ba2c18488113023865c41b80a4",
+            .hash = "zglfw-0.10.0-dev-zgVDNLyhIQCZR_rbIf7hnCKuifzcmPOLOQhd_hrqq8cl",
+        },
+        .lodepng = .{
+            .url = "https://github.com/lvandeve/lodepng/archive/b4ed2cd7ecf61d29076169b49199371456d4f90b.zip",
+            .hash = "N-V-__8AAD4EDgAH_tZkojP5bQ4txBrOiShmxr7wWKt59N17",
+        },
+        .marchingcubecpp = .{
+            .url = "https://github.com/aparis69/MarchingCubeCpp/archive/f03a1b3ec29b1d7d865691ca8aea4f1eb2c2873d.zip",
+            .hash = "N-V-__8AANhWAAAMWQ8q3Klegr7l67evm7FUyzkiEqIOSkwi",
+        },
+        .qhull = .{
+            .url = "https://github.com/qhull/qhull/archive/62ccc56af071eaa478bef6ed41fd7a55d3bb2d80.zip",
+            .hash = "N-V-__8AAM2rYwAXSyYj-xiZncNfjjNrjoBVBINeFMHdFiw2",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
