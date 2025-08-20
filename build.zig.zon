@@ -2,7 +2,7 @@
     .name = .mujoco,
     .version = "0.0.0",
     .fingerprint = 0xb0570d4fd4b5f13a,
-    .minimum_zig_version = "0.14.1",
+    .minimum_zig_version = "0.15.1",
     .dependencies = .{
         .mujoco = .{
             .url = "https://github.com/google-deepmind/mujoco/archive/refs/tags/3.3.4.zip",

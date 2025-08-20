@@ -27,11 +27,11 @@ pub fn main() !void {
     defer mj.mj_deleteData(data);
 
     std.debug.print("Hello, Mujoco!\n", .{});
-    std.debug.print("Model nq: {d}. Data qpos: {d}\n", .{
+    std.debug.print("Model nq: {d}. Data qpos: {any}\n", .{
         model.*.nq,
         data.*.qpos[0..@intCast(model.*.nq)],
     });
-    std.debug.print("Model nu: {d}. Data ctrl: {d}\n", .{
+    std.debug.print("Model nu: {d}. Data ctrl: {any}\n", .{
         model.*.nu,
         data.*.ctrl[0..@intCast(model.*.nu)],
     });
